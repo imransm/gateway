@@ -123,10 +123,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SmsController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SmsController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/controller/SmsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="70" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.47268906">
+            <state line="40" column="70" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="30" selection-start="744" selection-end="744" vertical-scroll-proportion="0.2588997">
               <folding />
             </state>
           </provider>
@@ -157,7 +166,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/tw/controller/HelloWorldController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/success.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/message_board.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/controller/SmsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/controller/SmsControllerTest.java" />
@@ -171,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tw/repository/IvrRepository.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ivr_message_board.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/domain/IvrData.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -835,8 +844,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="26" width="1919" height="1148" extended-state="1" />
-    <editor active="false" />
+    <frame x="1" y="26" width="1919" height="1148" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -850,7 +859,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993016" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993016" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32732734" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -896,14 +905,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/testContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="44" selection-start="1070" selection-end="1070" vertical-scroll-proportion="-13.428572" />
-      </provider>
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/repository/IvrRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="47" selection-start="1703" selection-end="1703" vertical-scroll-proportion="0.0" />
@@ -979,7 +980,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/controller/SmsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="70" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.47268906">
+        <state line="40" column="70" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="30" selection-start="744" selection-end="744" vertical-scroll-proportion="0.2588997">
           <folding />
         </state>
       </provider>
