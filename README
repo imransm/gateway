@@ -1,0 +1,23 @@
+This document describes the usage of gateway project. It is created to test sms and ivr gateway functionality within Motech-Ghana project.
+
+To use sms gateway:
+-------------------
+1. Create a schema with name "gatewaydb" in your database. (Username:root password:openmrs)
+2. Make the following changes in the code of motech-mobile-omp
+    a) Go to file "src/main/java/resources/rancard.properties" and change the value of property rancard.gateway.serviceURL to  "http://localhost:8080/gateway/message/send"
+    b) Go to file "src/main/java/resources/META-INF/omp-config.xml" . Locate bean with id="compositeGatewayManager" . Change the ref of property "textGatewayManager" to "rancardGateway"
+3. Deploy motech-mobile-webapp and gateway.war into ${tomcat.home}/webapps
+4. Start tomcat.
+5. Hit the URL "http://localhost:8080/gateway/message/show" from browser to see the messages sent. It displays the latest messages sent by the rancard gateway.
+
+To use ivr gateway:
+-------------------
+Change the following property in motech-settings.properties
+intellivr.gateway.serverURL to point to "http://localhost:8080/gateway/ivr/send".
+
+The urls to hit are the following:
+
+1. http://localhost:8080/gateway/ivr/send
+2. http://localhost:8080/gateway/ivr/show
+
+
