@@ -22,9 +22,9 @@ public class SmsController {
 
     @Autowired
     private SmsRepository repository;
-    static final String SMS_SEND_SUCCESS = "sms sent successfully";
+    static final String SMS_SEND_SUCCESS = "Status: Sent\nOK: ";
     static final String MESSAGE_BOARD_VIEW = "message_board";
-    static final String SMS_SEND_SUCCESS_VIEW = "Status: Sent\nOK: ";
+    static final String SMS_SEND_SUCCESS_VIEW = "success";
     static final String PRESENTER = "presenter";
     static final Integer MAX_MESSAGES_TO_SHOW = 50;
 

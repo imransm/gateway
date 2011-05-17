@@ -19,7 +19,7 @@ import java.util.List;
 @Controller
 @Scope("prototype")
 public class IvrController {
-    public static final String SEND_IVR_SUCCESS = "ivr_success";
+    public static final String SEND_IVR_SUCCESS_VIEW = "ivr_success";
 
     @Autowired
     private IvrRepository repository;
@@ -39,7 +39,7 @@ public class IvrController {
     @RequestMapping(method = RequestMethod.POST, value = {"/ivr/send/", "/ivr/send"})
     public ModelAndView sendMessage(@RequestParam String xmlData) {
         repository.save(new IvrData(xmlData));
-        return new ModelAndView(SEND_IVR_SUCCESS).addObject(PRESENTER, "<?xml version=\"1.0\"?>Success");
+        return new ModelAndView(SEND_IVR_SUCCESS_VIEW).addObject(PRESENTER, "<?xml version=\"1.0\"?>Success");
     }
 
     @RequestMapping(method = RequestMethod.GET, value = {"/ivr/show/", "/ivr/show"})

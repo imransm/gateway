@@ -12,6 +12,7 @@ import java.util.ArrayList;
 
 import static junit.framework.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
+import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 import static org.mockito.MockitoAnnotations.initMocks;
@@ -38,8 +39,8 @@ public class IvrControllerTest {
         IvrData ivrData = new IvrData(xmlString);
         when(repository.save(ivrData)).thenReturn(1);
         ModelAndView view = controller.sendMessage(xmlString);
-        assertEquals(IvrController.SEND_IVR_SUCCESS, view.getViewName());
-        verify(repository).save(ivrData);
+        assertEquals(IvrController.SEND_IVR_SUCCESS_VIEW, view.getViewName());
+        verify(repository).save(any(IvrData.class));
     }
 
 
