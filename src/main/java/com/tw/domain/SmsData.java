@@ -15,22 +15,22 @@ public class SmsData {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     
-    @Column(name="username", length = 25)
+    @Column(name="username")
     private String username;
 
-    @Column(name="password", length = 10)
+    @Column(name="password")
     private String password;
 
-    @Column(name="text", length = 140)
+    @Column(name="text", length = 1000)
     private String text;
 
-    @Column(name="source", length = 25)
+    @Column(name="source")
     private String from;
 
-    @Column(name="concat", length = 25)
+    @Column(name="concat")
     private String concat;
 
-    @Column(name="destination", length = 25)
+    @Column(name="destination")
     private String to;
 
     public String getUsername() {
@@ -87,5 +87,9 @@ public class SmsData {
 
     public void setId(long id) {
         this.id = id;
+    }
+
+    public String toString() {
+        return "To: " + to + " From: " + from + " Text: " + text;
     }
 }

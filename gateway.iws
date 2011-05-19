@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="43a80c0d-3bd7-47e4-89bf-8d983eab7253" name="Default" comment="" />
-    <ignored path=".idea/workspace.xml" />
+    <list default="true" readonly="true" id="43a80c0d-3bd7-47e4-89bf-8d983eab7253" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway.iws" afterPath="$PROJECT_DIR$/gateway.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tw/domain/SmsData.java" afterPath="$PROJECT_DIR$/src/main/java/com/tw/domain/SmsData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway.ipr" afterPath="$PROJECT_DIR$/gateway.ipr" />
+    </list>
     <ignored path="twgateway.iws" />
+    <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,37 +64,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ivr_message_board.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ivr_message_board.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="11" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IvrData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/domain/IvrData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="11" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SmsData.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SmsData.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/domain/SmsData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="message_board.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/message_board.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="63" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+            <state line="23" column="38" selection-start="433" selection-end="433" vertical-scroll-proportion="0.36201468">
               <folding />
             </state>
           </provider>
@@ -99,16 +76,51 @@
       <file leaf-file-name="SmsController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/controller/SmsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="17" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
+            <state line="29" column="0" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1305820636000" expanded="false" signature="35:528" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SmsRepository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/repository/SmsRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="39" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gateway-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/gateway-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="success.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/success.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="20" selection-start="290" selection-end="302" vertical-scroll-proportion="-6.521739">
+            <state line="10" column="20" selection-start="290" selection-end="302" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,10 +153,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SmsControllerTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SmsControllerTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/controller/SmsControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="23" selection-start="657" selection-end="657" vertical-scroll-proportion="0.2184466">
+            <state line="23" column="23" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -164,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/tw/controller/HelloWorldController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/success.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/message_board.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/controller/SmsControllerTest.java" />
@@ -176,10 +187,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tw/repository/IvrRepository.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ivr_message_board.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/domain/IvrData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tw/controller/SmsController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/controller/IvrController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/controller/IvrControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tw/controller/SmsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tw/domain/SmsData.java" />
       </list>
     </option>
   </component>
@@ -225,6 +237,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Tests" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -266,36 +281,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gateway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gateway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -414,9 +399,6 @@
         </subPane>
       </pane>
       <pane id="Favorites" />
-      <pane id="Scope">
-        <subPane subId="Tests" />
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -464,9 +446,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -789,11 +771,11 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.IvrControllerTest.shouldShowTheLatestMessages" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.tomcat_debug" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SmsControllerTest.shouldWriteSmsDataToDatabase" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.IvrControllerTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.IvrControllerTest.shouldSendIvrMessage" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.SmsControllerTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SmsControllerTest.shouldWriteSmsDataToDatabase" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.IvrControllerTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.IvrControllerTest.shouldSendIvrMessage" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SmsControllerTest" />
+      <item index="5" class="java.lang.String" itemvalue="Tomcat Server.tomcat_debug" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -854,9 +836,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993016" sideWeight="0.6656657" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.293928" sideWeight="0.6656657" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32732734" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32732734" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -899,37 +881,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/repository/IvrRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="47" selection-start="1703" selection-end="1703" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="40" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/repository/SmsRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="44" selection-start="2554" selection-end="2554" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ivr_success.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="8" selection-start="298" selection-end="298" vertical-scroll-proportion="0.16146395" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/repository/IvrRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="14" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/repository/SmsRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ivr_message_board.jsp">
@@ -937,59 +891,88 @@
         <state line="23" column="11" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/domain/SmsData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/message_board.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="63" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/success.jsp">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.0.RELEASE/spring-web-3.0.0.RELEASE.jar!/org/springframework/web/bind/annotation/ModelAttribute.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="290" selection-end="302" vertical-scroll-proportion="-6.521739" />
+        <state line="8" column="25" selection-start="416" selection-end="416" vertical-scroll-proportion="-4.375" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/controller/SmsController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-hibernate3/2.0.8/spring-hibernate3-2.0.8.jar!/org/springframework/orm/hibernate3/HibernateTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="17" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="22" selection-start="891" selection-end="891" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="99" column="32" selection-start="5875" selection-end="5875" vertical-scroll-proportion="0.33296824" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/domain/IvrData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="11" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="10" column="13" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="20" selection-start="290" selection-end="302" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="22" selection-start="891" selection-end="891" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/controller/IvrController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="24" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="39" column="24" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/controller/IvrControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="20" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="24" column="20" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/controller/SmsControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="23" selection-start="657" selection-end="657" vertical-scroll-proportion="0.2184466">
+        <state line="23" column="23" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/controller/SmsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1305820636000" expanded="false" signature="35:528" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/repository/SmsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="39" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/gateway-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/domain/SmsData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="38" selection-start="433" selection-end="433" vertical-scroll-proportion="0.36201468">
           <folding />
         </state>
       </provider>
